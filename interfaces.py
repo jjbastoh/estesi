@@ -1,8 +1,10 @@
 import streamlit as st
 from PIL import Image
+
 st.title("si")
 
-st.header("en este espacio comienxo etc")
-st.write("facilmente etc")
-image = Image.open('images.png')
-st.image(image, caption ='interfaces multi')
+st.header("en este espacio comienzo etc")
+st.write("fácilmente etc")
+
+image = Image.open("images.png")
+st.image(image, caption="interfaces multi")
